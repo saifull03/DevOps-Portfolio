@@ -12,3 +12,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.navbar-brand:hover {
+  color: #ffc107 !important;
+  transition: color 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,123,255,0.5);
+  transition: 0.3s ease;
+}

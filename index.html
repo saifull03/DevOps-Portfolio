@@ -6,6 +6,9 @@
     <title>Md Saiful Islam | DevOps Engineer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- AOS Library CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -28,7 +31,8 @@
 </nav>
 
 <!-- Showcase Header -->
-<section class="bg-dark text-light p-5 text-center text-sm-start showcase-header">
+ <section class="bg-dark text-light p-5 text-center text-sm-start showcase-header" data-aos="fade-up">
+
   <div class="container">
     <div class="d-sm-flex align-items-center justify-content-between">
       <div>
@@ -43,7 +47,8 @@
 </section>
 
 <!-- About Me -->
-<section id="about" class="p-5">
+<section id="about" class="p-5" data-aos="fade-right">
+
   <div class="container">
     <h2 class="text-center">About Me</h2>
     <p class="lead text-center">A brief description about your professional journey and passion for DevOps.</p>
@@ -51,7 +56,8 @@
 </section>
 
 <!-- Skills -->
-<section id="skills" class="bg-light p-5">
+<section id="skills" class="bg-light p-5" data-aos="fade-left">
+
   <div class="container">
     <h2 class="text-center mb-4">My Skills</h2>
     <div class="row text-center">
@@ -64,7 +70,8 @@
 </section>
 
 <!-- Projects -->
-<section id="projects" class="p-5">
+<section id="about" class="p-5" data-aos="fade-right">
+
   <div class="container">
     <h2 class="text-center mb-4">Projects</h2>
     <div class="row g-4">
@@ -84,7 +91,8 @@
 </section>
 
 <!-- Contact -->
-<section id="contact" class="bg-dark text-white p-5">
+<section id="contact" class="bg-dark text-white p-5" data-aos="zoom-in">
+
   <div class="container">
     <h2 class="text-center mb-4">Contact Me</h2>
     <div class="row">
@@ -108,5 +116,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="asset/js/script.js"></script>
+<!-- AOS Library JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
