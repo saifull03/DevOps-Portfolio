@@ -28,3 +28,35 @@ body {
   box-shadow: 0 0 10px rgba(0,123,255,0.5);
   transition: 0.3s ease;
 }
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 99;
+  font-size: 18px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#scrollTopBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark-mode .bg-dark {
+  background-color: #1f1f1f !important;
+}
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+

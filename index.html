@@ -31,12 +31,13 @@
 </nav>
 
 <!-- Showcase Header -->
- <section class="bg-dark text-light p-5 text-center text-sm-start showcase-header" data-aos="fade-up">
+ <section class="bg-dark text-light p-5 text-center text-sm-start showcase-header " data-aos="fade-up">
 
   <div class="container">
     <div class="d-sm-flex align-items-center justify-content-between">
       <div>
-        <h1>Hello, I'm <span class="text-warning">Md Saiful Islam</span></h1>
+       <h1>Hello, I'm <span class="text-warning typewriter" id="typewriter">Md Saiful Islam</span></h1>
+
         <h2>DevOps Engineer</h2>
         <p class="lead my-4">I build efficient, scalable, and secure DevOps pipelines.</p>
         <a href="#projects" class="btn btn-primary btn-lg">Explore Projects</a>
@@ -121,6 +122,9 @@
 <script>
   AOS.init();
 </script>
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+<button id="darkToggle" class="btn btn-outline-light ms-3">🌙</button>
+
 
 </body>
 </html>
